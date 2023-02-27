@@ -13,13 +13,27 @@ const Container = styled.div`
 
 `
 
+const Heading = styled.h1`
+    /* margin-bottom: px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: 400;
+    /* margin-left: 22px; */
+`
+
 const Product = () => {
   return (
+    <>
+    <Heading>Products</Heading>
     <Container>
         {popularProducts.map((item)=>(
             <ProductItem item={item} key={item.id}></ProductItem>
         ))}
     </Container>
+    </>
   )
 }
 
