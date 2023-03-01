@@ -2,6 +2,7 @@ import { Badge} from "@material-ui/core";
 import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
+// import { Link } from "react-router-dom";
 // import Badge from "@mui/material/Badge";
 // import MailIcon from "@mui/icons-material/Mail";
 
@@ -74,7 +75,7 @@ const Navbar = () => {
           <Logo>E-Shop.</Logo>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
+          <MenuItem>REGISTER</MenuItem> 
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary" overlap="rectangular">
