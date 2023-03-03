@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import  { sliderItems } from "../data";
 
+import {mobile} from '../Responsive'
+
 const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -15,6 +17,8 @@ const Container = styled.div`
 
   /* hide overflow */
   overflow: hidden;
+
+  ${mobile({ display: "none" })}
 `;
 const Arrow = styled.div`
   width: 50px;
