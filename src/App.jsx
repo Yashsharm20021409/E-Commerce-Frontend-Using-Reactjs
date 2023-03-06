@@ -8,10 +8,10 @@ import ProductList from "./pages/ProductList";
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
+      <Home/>
       {/* <ProductList/> */}
       {/* <Product/> */}
-      <Register/>
+      {/* <Register/> */}
       {/* <Login/> */}
       {/* <Cart/> */}
     </div>
